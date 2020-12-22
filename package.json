@@ -2,9 +2,11 @@
   "name": "vue-highlight-component",
   "version": "0.1.0",
   "private": true,
+  "author": "MOONCOM",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build-component": "vue-cli-service build --target lib --name vue-highlight src/highlight.vue"
   },
   "dependencies": {
     "core-js": "^3.6.5",

@@ -1,5 +1,4 @@
 node_modules/
-src/
 public/
 .*
 vue.config.js

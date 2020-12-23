@@ -18,5 +18,7 @@
     "vue-template-compiler": "^2.6.11",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
-  }
+  },
+  "license": "MIT",
+  "keywords": [ "vue", "highlight", "component", "vue-highlight"]
 }

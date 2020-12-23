@@ -15,7 +15,7 @@
     name: 'highlight',
     props:{
       // 要高亮的关键字数组
-      selectedArray:{
+      search:{
         type: Array,
         default(){
           return [];
@@ -36,7 +36,7 @@
       // 将要展示的信息按照关键字截取
       operateMessage(){
         let resultArray = [{word:'',message:this.message}];
-        this.selectedArray.forEach(selectedWord=>{
+        this.search.forEach(selectedWord=>{
           const store = [];
           resultArray.forEach(({word,message})=>{
             const result = this.splitMessage(message,selectedWord);

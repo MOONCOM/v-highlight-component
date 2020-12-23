@@ -1,0 +1,7 @@
+node_modules/
+src/
+public/
+.*
+vue.config.js
+babel.config.js
+dist/demo.html

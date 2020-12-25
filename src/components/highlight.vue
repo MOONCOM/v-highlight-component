@@ -11,6 +11,8 @@
 </template>
 
 <script>
+  import {init} from "../init-data";
+
   export default {
     name: 'highlight',
     props:{
@@ -31,6 +33,12 @@
         type: String,
         default: 'div',
       },
+    },
+    data(){
+      return{
+        // 初始化配置
+        init,
+      };
     },
     computed:{
       // 将要展示的信息按照关键字截取

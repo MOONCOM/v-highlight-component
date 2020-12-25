@@ -6,19 +6,28 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-component": "vue-cli-service build --target lib --name v-highlight-component src/highlight.vue"
+    "build-component": "vue-cli-service build --target lib --name v-highlight-component src/components/highlight.vue"
   },
   "dependencies": {
-
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
   },
   "main": "dist/v-highlight-component.common.js",
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "vue-template-compiler": "^2.6.11",
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue-template-compiler": "^2.6.11"
   },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
-  "keywords": [ "vue", "highlight", "component", "vue-highlight", "高亮", "选中"]
+  "keywords": [
+    "vue",
+    "highlight",
+    "component",
+    "vue-highlight",
+    "高亮",
+    "选中"
+  ]
 }

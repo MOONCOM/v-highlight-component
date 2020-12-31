@@ -5,7 +5,7 @@
   @time: 2020/12/22
 -->
 <template>
-  <component :is="tag" class="highlight-content">
+  <component :class="['highlight-content', init.class]" :is="tag" :style="init.style">
     <template v-for="item of operateMessage">{{item.message}}<span class="highlight">{{item.word}}</span></template>
   </component>
 </template>

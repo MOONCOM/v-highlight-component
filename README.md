@@ -10,7 +10,17 @@
 npm install v-highlight-component
 ```
 
-### 参数
+### init (当组件注册时配置)
+> ### class
+> * 类型：String 字符串
+> * 默认值： ' ' 空字符串
+> * 作用：配置组件的默认类名
+> ### style
+> * 类型：Object 对象
+> * 默认值： { } 空对象
+> * 作用：配置组件的默认样式
+
+### props
 > #### search
 > * 类型：Array 数组
 > * 默认值： [ ] 空数组
@@ -28,10 +38,12 @@ npm install v-highlight-component
 ### 使用
 下载成功后在main.js中插入如下代码
 ```
-// 引入组件
+// 引入插件
 import highlight from 'v-highlight-component';
-// 注册为全局组件
-Vue.component('v-highlight-component',highlight);
+// 组件注册
+Vue.use(highlight);
+// 配置组件的默认类名和样式
+// Vue.use(highlight,{class:'MOONCOM zhangsan',style:{color:'#ff0'}});
 ```
 在需要查询字词高亮展示的页面组件中使用
 ```
@@ -59,3 +71,5 @@ export default{
 > 这是基于vue2开发的功能组件，因为没有使用vue2高版本的特性，所以理论上兼容所有的
 > vue2版本 
 
+### github地址
+> [v-highlight-component](https://github.com/MOONCOM/v-highlight-component)

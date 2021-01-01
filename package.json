@@ -5,7 +5,7 @@
   "author": "MOONCOM",
   "scripts": {
     "serve": "vue-cli-service serve src/demo/main.js",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build src/demo/main.js",
     "build-component": "vue-cli-service build --target lib --name v-highlight-component src/index.js"
   },
   "dependencies": {

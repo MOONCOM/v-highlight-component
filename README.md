@@ -69,7 +69,7 @@ export default{
 ```
 
 ### 在线演示
->后续开放
+> [示例](https://mooncom.github.io/v-highlight-component/dist/index.html)
 
 ### 兼容性
 > 这是基于vue2开发的功能组件，因为没有使用vue2高版本的特性，所以理论上兼容所有的

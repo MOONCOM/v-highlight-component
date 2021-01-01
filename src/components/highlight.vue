@@ -6,7 +6,7 @@
 -->
 <template>
   <component :class="['highlight-content', init.class]" :is="tag" :style="init.style">
-    <template v-for="item of operateMessage">{{item.message}}<span class="highlight">{{item.word}}</span></template>
+    <template v-for="item of operateMessage">{{item.message}}<span :class="init.selectedClass">{{item.word}}</span></template>
   </component>
 </template>
 

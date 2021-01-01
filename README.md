@@ -14,11 +14,15 @@ npm install v-highlight-component
 > ### class
 > * 类型：String 字符串
 > * 默认值： ' ' 空字符串
-> * 作用：配置组件的默认类名
+> * 作用：配置组件的默认类名，多个类名使用空格分隔
 > ### style
 > * 类型：Object 对象
 > * 默认值： { } 空对象
 > * 作用：配置组件的默认样式
+> ### selectedClass
+> * 类型：String 字符串
+> * 默认值： 'highlight'
+> * 作用：匹配字符的类名，多个类名使用空格分隔
 
 ### props
 > #### search

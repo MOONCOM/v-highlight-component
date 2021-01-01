@@ -10,9 +10,15 @@ export let init = {
   * 类型：对象
   * */
   style: undefined,
+  /*
+  * 作用：匹配字符的类名
+  * 类型：字符串
+  * 默认值：highlight
+  * */
+  selectedClass: 'highlight',
 };
 
 // 设置初始值
 export function setInit(json){
-  init = json;
+  init = {...init,...json};
 }

@@ -72,8 +72,10 @@ export default{
 ```
 
 ### 兼容性
-> 这是基于vue2开发的功能组件，因为没有使用vue2高版本的特性，所以理论上兼容所有的
-> vue2版本 
+> 这是基于vue2开发的功能组件，因为没有使用vue2高版本的特性，所以理论上兼容所有的vue2版本 
 
 ### github地址
 > [v-highlight-component](https://github.com/MOONCOM/v-highlight-component)
+
+### 版本支持
+> 已完成基于vue3的高亮组件开发，点击 [vue3-highlight](https://github.com/MOONCOM/vue3-highlight) 进行跳转

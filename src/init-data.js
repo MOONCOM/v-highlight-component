@@ -1,4 +1,5 @@
 // 保存的初始值
+// eslint-disable-next-line import/no-mutable-exports
 export let init = {
   /*
   * 作用：组件的自定义类名
@@ -19,6 +20,6 @@ export let init = {
 };
 
 // 设置初始值
-export function setInit(json){
-  init = {...init,...json};
+export function setInit(json) {
+  init = { ...init, ...json };
 }

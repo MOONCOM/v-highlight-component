@@ -89,6 +89,9 @@ export default {
 </script>
 
 <style>
+  .highlight-content{
+    word-break: break-all;
+  }
   .highlight-content .highlight{
     color:red;
   }
